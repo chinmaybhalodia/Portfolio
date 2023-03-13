@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2%;
+        }
+
+        .description{
+            padding-bottom: 1vw;
+        }
+
+        .submit-button{
+            width: 20%;
+            padding: 1.75%;
+            margin: 1% 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainframe-secondary">
+        <div class="description">
+            <div class="name">
+                <span>Contact</span> Me
+            </div>
+            <div class="about-text">
+                Whether you're a recruiter looking for talent or a fellow creative looking to collaborate, I'd love to hear from you! Feel free to drop me a message or connect with me on my social media profiles. I'm excited to explore potential opportunities and discuss how we can work together to bring your vision to life.
+            </div>
+        </div>
+        <div class="about-section">
+            <div class="about-heading">
+                <div class="heading-text">Let's talk!</div>
+                <div class="heading-circle"></div>
+            </div>
+            <form action="/" class="contact-form" method="post">
+                <input type="text" name="firstname" id="firstname" placeholder="Your Name" autocomplete="off">
+                <input type="email" name="email" id="email" placeholder="Your Email Address" autocomplete="off">
+                <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                <button class="submit-button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="about-section">
+            <div class="about-heading">
+                <div class="heading-text">Socials</div>
+                <div class="heading-circle"></div>
+            </div>
+            <div class="about-text">
+                <span>Phone:</span> +91 93134 02393 <br>
+                <span>Email:</span> <a href="mailto:chinmaybhalodia@gmail.com">chinmaybhalodia@gmail.com</a> <br>
+                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/chinmay-bhalodia/">chinmay-bhalodia</a> <br>
+                <span>Instagram:</span> <a href="https://www.instagram.com/chinmay_6478/">@chinmay_6478</a>
+            </div>
+        </div>
+        <div class="back-button-parent">
+            <a href="index.html" class="back-button" title="Back">
+                ←
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">© Copyright Chinmay Bhalodia 2023</div>
+        <div class="links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Github</a>
+            <a href="#">Email</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
