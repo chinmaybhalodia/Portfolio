@@ -179,6 +179,10 @@ body {
     border: 3px solid #e2e1e1;
 }
 
+.navbar::placeholder{
+    font-size: 0.9vw;
+}
+
 .nav-circle {
     width: 40px;
     height: 40px;
@@ -623,3 +627,197 @@ ul{
 .show-button:hover{
     opacity: 0.6;
 }
+
+@media (max-aspect-ratio: 3/2){
+    *{
+        border-radius: 10px;
+    }
+
+    .mainframe {
+        flex-direction: column;
+        height: auto;
+        width: 98%;
+        align-items: center;
+        margin: 1vw;
+    }
+
+    .left{
+        width: 90vw;
+        margin: 1vw;
+    }
+
+    .right{
+        width: 90vw;
+        margin: 1vw;
+    }
+
+    .banner{
+        height: 20vh;
+    }
+
+    .name {
+        font-size: 4.5vw;
+    }
+
+    .photo{
+        width: 15%;
+    }
+
+    .profile-text {
+        font-size: 1.4vw;
+    }
+
+    .linkto {
+        font-size: 1.8vw;
+        padding: 0 5% 5% 0;
+    }
+
+    .page-card-line img {
+        width: 1.8vw;
+        height: 1.8vw;
+        padding-bottom: 6%;
+    }
+
+    .page-card hr {
+        width: 100%;
+    }
+
+    .navsection{
+        height: auto;
+    }
+
+    .navbar{
+        font-size: 1.4vw;
+    }
+
+    .navbar::placeholder {
+        font-size: 1.4vw;
+    }
+
+    .nav-circle{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .portfolio {
+        margin-bottom: 3vw;
+    }
+
+    .portfolio-text {
+        font-size: 4vw;
+    }
+
+    .card {
+        padding: 4% 5%;
+    }
+
+    .card-linkto {
+        font-size: 3vw;
+        margin-right: 5%;
+    }
+
+    .card-line img {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .newsletter {
+        justify-content: flex-start;
+        gap: 5vw;
+        padding: 2vw 3vw;
+    }
+
+    .newsl-text {
+        width: 25%;
+        line-height: 1.8em;
+        font-size: 1.4vw;
+    }
+
+    .newsl-form {
+        width: 75%;
+    }
+
+    .newsl-form input::placeholder,
+    .newsl-form textarea::placeholder{
+        font-size: 1vw;
+    }
+
+    .newsl-form input, .newsl-form textarea {
+        width: 90%;
+        font-size: 1vw;
+        padding: 3%;
+        margin: 1% 0;
+    }
+
+    .submit-button {
+        width: 25%;
+        font-size: 1vw;
+        padding: 3%;
+    }
+
+    .footer{
+        align-self: center;
+        font-size: 1vw;
+    }
+
+    .mainframe-secondary {
+        width: 90vw;
+        margin: 1vw;
+    }
+
+    .heading-text {
+        font-size: 1.8vw;
+    }
+
+    .about-text {
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+    }
+
+    .back-button {
+        width: 5vw;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+        width: 94%;
+        font-size: 1.2vw;
+        padding: 2.5%;
+    }
+
+    .contact-form input::placeholder, 
+    .contact-form textarea::placeholder{
+        font-size: 1.2vw;
+    }
+
+    .skill-name {
+        font-size: 1.4vw;
+    }
+
+    .skill-progress {
+        width: 80vw;
+    }
+
+    .percent-label {
+        font-size: 1.2vw;
+    }
+
+    .about-text ul li {
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+    }
+
+    .tech {
+        font-size: 1.2vw;
+    }
+
+    .show-button {
+        font-size: 1.4vw;
+    }
+}
+
+/* 786 px */
+/* 360 * 640 */
+/* 414 * 896 */
